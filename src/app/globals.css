@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar Styling */
+.nav-dark {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-glass {
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.nav-hover li > a:hover {
+    color: #e3e3e3;
+}
+
+body {
+    background-image: url("/assets/bckg.jpg");
+}
+
+.nav-hover li > a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e3e3e3;
+    transition: width .3s;
+}
+.nav-hover li > a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}

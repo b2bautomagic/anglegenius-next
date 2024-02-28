@@ -1,0 +1,23 @@
+/* AngleGenius - Progress Indicator (Stylesheet) */
+
+:root {
+    --app-gradient: linear-gradient(to bottom, #4c46f5, #3b82f6);
+}
+
+/* Gradient color for completed step indicators */
+.bg-app-gradient {
+    background: var(--app-gradient);
+}
+
+/* Gradient color for current step indicators */
+.outline-app-gradient {
+    outline: var(--app-gradient);
+}
+
+
+/* The offer label was dispositioned from the step indicator,
+    To resolve this we translate the span horizontally by 0. */
+
+#offer {
+    transform: translateX(0%);
+}

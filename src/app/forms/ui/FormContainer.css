@@ -1,0 +1,10 @@
+/* AngleGenius - Form Container (Stylesheet) */
+
+:root {
+    --btn-gradient: linear-gradient(to right, #4c46f5, #3b82f6);
+}
+
+/* Gradient color for completed step indicators */
+.button-app-gradient {
+    background: var(--btn-gradient);
+}
