@@ -46,19 +46,19 @@ export default function ContactInfoFormModule() {
 
                 {/* Row C */}
                 <div className="mb-5">
-                    <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowC}</label>
+                    <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-gray-900">{formletRowC}</label>
                     <input type="text" placeholder={formletPlaceholderC} id="base-input" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" />
                 </div>
 
                 {/* Row D */}
                 <div className="mb-5">
-                    <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowD}</label>
+                    <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-gray-900">{formletRowD}</label>
                     <input type="text" placeholder={formletPlaceholderD} id="base-input" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" />
                 </div>
 
                 {/* Row E */}
                 <div className="mb-5">
-                    <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowE}</label>
+                    <label htmlFor="base-input" className="block mb-2 text-sm font-medium text-gray-900">{formletRowE}</label>
                     <input type="email" placeholder={formletPlaceholderE} id="base-input" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" />
                 </div>
             </form>
