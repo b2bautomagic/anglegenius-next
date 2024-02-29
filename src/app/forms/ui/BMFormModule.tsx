@@ -26,12 +26,12 @@ export default function BackgroundMaterialFormModule() {
             <form className="mt-3 md:mt-5">
                 {/* Row A */}
                 <div className="mb-5">
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowA}</label>
+                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">{formletRowA}</label>
                     <textarea id="message" placeholder={formletPlaceholderA} rows={rowSize} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" required></textarea>
                 </div>
                 {/* Row B */}
                 <div className="mb-5">
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowB}</label>
+                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">{formletRowB}</label>
                     <textarea id="message" placeholder={formletPlaceholderB} rows={rowSize} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" required></textarea>
                 </div>
             </form>

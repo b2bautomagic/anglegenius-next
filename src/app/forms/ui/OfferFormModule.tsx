@@ -36,27 +36,27 @@ export default function OffersFormModule() {
             <form className="mt-3 md:mt-5">
                 {/* Row A */}
                 <div className="mb-5">
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowA}</label>
+                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">{formletRowA}</label>
                     <textarea id="message" placeholder={formletPlaceholderA} rows={detailedRowSize} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" required></textarea>
                 </div>
                 {/* Row B */}
                 <div className="mb-5">
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowB}</label>
+                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">{formletRowB}</label>
                     <textarea id="message" placeholder={formletPlaceholderB} rows={detailedRowSize} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" required></textarea>
                 </div>
                 {/* Row C */}
                 <div className="mb-5">
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowC}</label>
+                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">{formletRowC}</label>
                     <textarea id="message" placeholder={formletPlaceholderC} rows={rowSize} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" required></textarea>
                 </div>
                 {/* Row D */}
                 <div className="mb-5">
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowD}</label>
+                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">{formletRowD}</label>
                     <textarea id="message" placeholder={formletPlaceholderD} rows={rowSize} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" required></textarea>
                 </div>
                 {/* Row E */}
                 <div className="mb-5">
-                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{formletRowE}</label>
+                    <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 ">{formletRowE}</label>
                     <textarea id="message" placeholder={formletPlaceholderE} rows={rowSize} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" required></textarea>
                 </div>
             </form>
