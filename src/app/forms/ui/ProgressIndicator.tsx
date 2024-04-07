@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProgressIndicator.css';
-import { formSteps } from './formController';
+import { formSteps } from '../lib/steps';
 
 interface ProgressIndicatorProps {
     activeStep: number;
@@ -8,10 +8,10 @@ interface ProgressIndicatorProps {
 
 const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({ activeStep }) => {
     const StepDivider: React.FC<{ activeStep: number; stepLevel: number }> = ({ activeStep, stepLevel }) => {
-        const dividerStyle = activeStep > stepLevel ? 'app-color' : 'black';
+        const dividerStyle = activeStep > stepLevel ? 'border-app-color' : 'border-grey-100';
         return (
             <div className="z-0 flex items-center">
-                <hr className={`w-20 border-${dividerStyle} border-b border-4`} />
+                <hr className={`w-20 ${dividerStyle} border-b border-4`} />
             </div>
         );
     };

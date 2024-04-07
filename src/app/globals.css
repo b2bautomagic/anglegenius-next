@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --bgr-gradient: linear-gradient(to left, #4c46f5, #3b82f6);
+}
+
 /* Navbar Styling */
 .nav-dark {
     background-color: rgba(0, 0, 0, 0.8);
@@ -30,4 +34,14 @@ body {
 .nav-hover li > a:hover::after {
     width: 100%;
     transition: width .3s;
+}
+
+/* Jumbotron Styling */
+.text-ag-emphasis {
+    background-color: linear-gradient(#e2c479, #debd68, 	#dbb658, #c5a34f, #af9146);
+}
+
+/* Gradient color for completed step indicators */
+.bgr-app-gradient {
+    background: var(--bgr-gradient);
 }

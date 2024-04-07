@@ -7,7 +7,7 @@ export default function AppNavbar() {
     const Logo = () => {
         return(
         <img src="/assets/logo.svg"
-             className="h-6" 
+             className="h-8" 
              alt="anglegenius_logo">
         </img>
         );
@@ -19,11 +19,11 @@ export default function AppNavbar() {
 
                 <a id="" href={brandURI} className="flex items-center space-x-4">
                     <Logo />
-                    <span id="" className="self-center text-white text-xl font-bold whitespace-nowrap">AngleGenius</span>
+                    <span id="" className="self-center text-white text-xl font-bold whitespace-nowrap">Angle Genius</span>
                 </a>
 
                 <div id="" className="flex md:order-2 space-x-3 md:space-x-0">
-                    <div className="flex space-x-3">
+                    <div className="flex space-x-3 invisible">
                         <button type="button" className="hidden md:block text-white hover:bg-white hover:text-black font-medium rounded-2xl text-sm px-4 py-1.5 text-center">Login</button>
                         <button type="button" className="hidden md:block text-white bg-app-color font-medium rounded-2xl text-sm px-4 py-1.5 text-center">Sign Up</button>
                     </div>

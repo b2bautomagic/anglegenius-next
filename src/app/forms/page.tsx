@@ -1,8 +1,9 @@
 import AppFooter from "../ui/AppFooter";
 import AppNavbar from "../ui/AppNavbar";
-import FormContainer from "./ui/FormContainer";
+import FormView from "./ui/FormView";
 
-export default function Forms() {
+export default async function Forms() {
+
     return (
       <>
       <section>
@@ -10,7 +11,7 @@ export default function Forms() {
       </section>
 
       <section className="py-16 px-4 md:px-16">
-        <FormContainer />
+        <FormView />
       </section>
 
       <section>
